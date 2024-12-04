@@ -7,6 +7,7 @@
 
 struct ServiceUsage {
     std::string phoneNumber;
+    std::string fullName; 
     const Service* service;
     std::time_t dateTime;
     std::string duration;
